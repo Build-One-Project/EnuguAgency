@@ -5,26 +5,20 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    color: #465158;
 }
-/* .container{
-    background: url(./images/bg.jpg);
-    background-size: cover;
-    opacity: 1;
-    width: 100%;
-    height: 650px;
-} */
 
 .logo img{
     margin-top: 10px;
     max-width: 5%;
     margin-left: 50px;
+    margin-bottom: -40px;
 }
 nav{
     display: flex;
-    margin-top: -100px;
+    margin-top: -40px;
     float: right; 
     margin-right: 30px;
-    padding: 30px;
 }
 nav ul{
     list-style: none;
@@ -32,21 +26,212 @@ nav ul{
 
 nav ul li a{
     text-decoration: none;
-    color: #bbb;
+    color: #333;
+}
+.first{
+    text-align: center;
+    letter-spacing: 1px;
+    background: linear-gradient(to right,#4c359265, #6547c0ba), url(./images/bg.jpg);
+    background-size: cover;
+    color: #fff;
+}
+.first h1{
+    font-size: 50px;
+}
+form{
+    background: #fff transparent;
+    padding: 20px;
+}
+input{
+    width: 700px;
+    padding: 20px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    padding: 15px;
+    width: 400px;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    background: #6EC1E4;
+    border: none;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.txt{
+    text-align: center;
+    padding: 30px;
+}
+.txt h1{
+    font-size: 40px;
+}
+.txt span{
+    color: #6EC1E4;
+}
+.row{
+    text-align: center;
+    padding: 30px;
+    margin: 15px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    height: 30vh;
+    box-shadow: 0 5px 25px 0 rgb(41 128 185 / 15%);
+    border-radius: 10px;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    clear: both;
+}
+.row img{
+    width: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+.testimonial{
+    box-sizing: border-box;
+}
+/* Slideshow container */
+.slideshow-container {
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    background: #fff;
+}
+  
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+}
+  
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    margin-top: 70px;
+    padding: 16px;
+    color: #6EC1E4;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 60px;
+    border-radius: 3px 0 0 3px;
 }
 
-.slides img{
+.prev{
+    left: 60px;
+}
+  
+
+.slideshow-container p{
+    font-size: 20px;
+    position: absolute;
     width: 100%;
-    height: 700px;
-}
-.container h1, h2, p{
+    padding: 80px 0px 80px 0;
     text-align: center;
-    color: rgb(250, 250, 250);
+    font-weight: 500;
 }
-.container h2{
-    font-size: 45px;
-    margin-top: 180px;
+
+  
+  /* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    margin-top: 170px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
-.container h2 span{
-    color: yellow;
+  
+.active, .dot:hover {
+    background-color: #6EC1E4;
 }
+  
+  /* Fading animation */
+.fade {
+    -webkit-animation-name: fader;
+    -webkit-animation-duration: 2s;
+    animation-name: fader;
+    animation-duration: 2s;
+}
+  
+@-webkit-keyframes fader {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fader {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 768px) {
+    .column{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials {
+    max-height: 700px;
+  }
+  .icon-overlay {
+    height: 300px;
+    top: calc(50% - 150px);
+  }
+  .carousel-controls .control {
+    width: 25px;
+    height: 25px;
+    top: inherit;
+  }
+  .prev {
+    left: 0;
+  }
+  .next {
+    right: 0;
+  }
+  .control i {
+    font-size: .7rem;
+  }
+  .testimonials .message {
+    font-size: 1rem;
+  }
+  .testimonials h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  } */
