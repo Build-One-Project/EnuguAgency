@@ -194,13 +194,11 @@ button a{
 
 
 
-/* @media (max-width: 768px) {
-    .column{
-        width: 25%;
-    }
-}
 
 @media screen and (max-width: 768px) {
+  .column{
+    width: 25%;
+}
   .testimonials {
     max-height: 700px;
   }
@@ -234,4 +232,4 @@ button a{
     .column {
       width: 100%;
     }
-  } */
+  } 
