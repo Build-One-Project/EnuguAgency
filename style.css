@@ -185,6 +185,20 @@ button a{
     text-align: center;
     font-weight: 500;
 }
+cite {
+	font-size: 1em;
+	float: right;
+	font-style: normal;
+	color: #1e528e;
+  margin-right: 150px;
+}
+
+cite a {
+	color: #2d91c2;
+	font-style: italic;
+	text-decoration: none;
+	font-size:.85em;
+}
 
   
   /* The dots/bullets/indicators */
@@ -226,15 +240,33 @@ footer{
   box-sizing: border-box;
 }
 footer img{
-  width: 10%;
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-footer p{
-  display: flex;
+footer h2{
+  text-align: center;
+  font-weight: 500;
+}
+footer h4{
+  text-align: center;
+  font-weight: 500;
+}
+footer h5{
+  text-align: center;
+  font-weight: 500;
 }
 footer .icons{
   width: 30%;
   display: flex;
-  float: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text{
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #bbb;
 }
   
 
@@ -250,6 +282,14 @@ footer .icons{
 @media screen and (max-width: 768px) {
   input{
     width: 70%;
+  }
+  cite{
+    margin-right: 50px;
+    margin-top: 20px;
+  }
+  .dot{
+    margin-left: 50px;
+    margin-right: -100px;
   }
   .nav-menu {
     position: fixed;
