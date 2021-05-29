@@ -96,45 +96,45 @@ input[type=submit] {
 footer{
     box-sizing: border-box;
     background: #465158;
-  }
-  footer img{
+}
+footer img{
     width: 15%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-  footer h2{
+}
+footer h2{
     text-align: center;
     font-weight: 500;
     color: #fff;
-  }
-  footer h4{
+}
+footer h4{
     text-align: center;
     font-weight: 500;
     color: #fff;
-  }
-  footer h5{
+}
+footer h5{
     text-align: center;
     font-weight: 500;
     color: #fff;
-  }
-  footer .icons{
+}
+footer .icons{
     width: 30%;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-  }
-  .text{
+}
+.text{
     text-align: center;
     padding: 15px;
     border-top: 1px solid #bbb;
     color: #fff;
-  }
-  .top{
+}
+.top{
     width: 50px;
     height: 50px;
-  }
-  #myBtn {
+}
+#myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
@@ -148,7 +148,62 @@ footer{
     cursor: pointer; /* Add a mouse pointer on hover */
     border-radius: 10px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
+}
+#google_translate{
+    border-bottom: 1px solid #bbb;
+    padding: 0;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    input[type=text], select, textarea {
+        width: 100%;
+    }
+
+    cite{
+      margin-right: 50px;
+      margin-top: 20px;
+    }
+    .logo img{
+      width: 7%;
+    }
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 5rem;
+      flex-direction: column;
+      background-color: #fff;
+      width: 90%;
+      border-radius: 10px;
+      text-align: center;
+      padding: 10px;
+      transition: 0.3s;
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
-  #google_translate{
-    background: #bbb;
+  
+  .nav-menu.active {
+      left: 0;
   }
+  
+  .nav-item {
+      margin: 1.5rem 0;
+  }
+  
+  .hamburger {
+      display: block;
+      cursor: pointer;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
