@@ -17,6 +17,14 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
+
+
+// const searchBar = document.getElementById("search");
+// searchBar.addEventListener("keyup", e => { 
+//   const searchString = e.target.value; 
+// });
+// console.log(searchString)
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -67,8 +75,8 @@ mybutton.addEventListener('click', () => {
   document.documentElement.scrollTop = 0;
 })
 
-function googleTranslateElementInit() { 
-  new google.translate.TranslateElement(
-      {pageLanguage: 'en'}, 
-      'google_translate'
-  )}
+// function googleTranslateElementInit() { 
+//   new google.translate.TranslateElement(
+//       {pageLanguage: 'en'}, 
+//       'google_translate'
+//   )}
