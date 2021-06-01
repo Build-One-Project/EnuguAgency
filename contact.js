@@ -18,11 +18,11 @@ mybutton.addEventListener('click', () => {
   document.documentElement.scrollTop = 0;
 })
 
-function googleTranslateElementInit() { 
-  new google.translate.TranslateElement(
-      {pageLanguage: 'en'}, 
-      'google_translate'
-)}
+// function googleTranslateElementInit() { 
+//   new google.translate.TranslateElement(
+//       {pageLanguage: 'en'}, 
+//       'google_translate'
+// )}
 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
