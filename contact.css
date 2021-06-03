@@ -52,7 +52,7 @@ body{
   font-size: 1.2rem;
   font-weight: 400;
   color: #475569;
-}
+} 
 
 .nav-link:hover{
   color: #6EC1E4;
@@ -148,10 +148,6 @@ footer .icons{
     cursor: pointer; /* Add a mouse pointer on hover */
     border-radius: 10px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
-}
-#google_translate{
-    border-bottom: 1px solid #bbb;
-    padding: 0;
 }
 
 

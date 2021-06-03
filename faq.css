@@ -15,58 +15,54 @@ body{
     margin-bottom: -40px;
     float: right;
 }
-
 .header{
-    border-bottom: 1px solid #E2E8F0;
-    /* position: fixed;
-    background: #fff;
-    width: 100%; */
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 1rem;
-  }
-  .hamburger {
-    display: none;
-  }
-  
-  .bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #101010;
-  }
-  
-  .nav-menu {
-    display: flex;
-    justify-content: space-between;;
-    list-style: none;
-  }
-  
-  .nav-item {
-    margin-left: 5rem;
-  }
-  
-  .nav-link{
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: #475569;
-  }
-  
-  .nav-link:hover{
-    color: #6EC1E4;
-  }
-  
-  
-  nav ul li a{
-      text-decoration: none;
-      color: #333;
-  }
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+}
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;;
+  list-style: none;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #475569;
+}
+
+.nav-link:hover{
+  color: #6EC1E4;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
 
 .top1{
     padding: 100px;
@@ -154,70 +150,72 @@ footer{
     width: 50px;
     height: 50px;
   }
-  #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #6EC1E4; /* Set a background color */
-    color: white; /* Text color */
-    padding: 10px;
-    cursor: pointer; /* Add a mouse pointer on hover */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #6EC1E4; /* Set a background color */
+  color: white; /* Text color */
+  padding: 10px;
+  cursor: pointer; /* Add a mouse pointer on hover */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+  .logo img{
+    width: 7%;
   }
-
-
-
-
-
-
-
-
-  
-@media screen and (max-width: 768px) {
-    .top1{
-        background-position-x: -140px;
-    }
-    .nav-menu {
+  .nav-menu {
     position: fixed;
     left: -100%;
     top: 5rem;
     flex-direction: column;
     background-color: #fff;
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     text-align: center;
     padding: 10px;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-    }
+  }
 
-    .nav-menu.active {
-    left: 0;
-    }
+  .nav-menu.active {
+      left: 0;
+  }
 
-    .nav-item {
-    margin: 1.5rem 0;
-    }
+  .nav-item {
+      margin: 1.5rem 0;
+  }
 
-    .hamburger {
-    display: block;
-    cursor: pointer;
-    }
-    .hamburger.active .bar:nth-child(2) {
+  .hamburger {
+      display: block;
+      cursor: pointer;
+  }
+  .hamburger.active .bar:nth-child(2) {
     opacity: 0;
-    }
+  }
 
-    .hamburger.active .bar:nth-child(1) {
+  .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
-    }
+  }
 
-    .hamburger.active .bar:nth-child(3) {
+  .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
-    }
+  }
+  .top1{
+    background-position-x: -140px;
+  }
 }
+
+
+
+
   
