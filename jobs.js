@@ -143,42 +143,42 @@ const avaialable_jobs = [
     {
         "title": "Fire Safety Consultant",
         "category": "Fire",
-        "description": "Some",
-        "requirements" : "",
-        "company": ""
+        "description": "Someone who can guide people on fire safety and how to avoid fire accidents.",
+        "requirements" : "Certified Paramedic",
+        "company": "Enugu State Fire Service"
     },
     {
-        "title": "",
+        "title": "Fire Marshal",
         "category": "Fire",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "Someone who is capable of surveying buildings caught on fire and making sure it is safe for everyone.",
+        "requirements" : "Both levels of NREMT certification.",
+        "company": "Enugu State Fire Service"
     },
     {
-        "title": "",
+        "title": "Deputy Fire Marshal",
         "category": "Fire",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "Someone who can assist the Fire Marshal to prevent fires and other problems before they happen. ",
+        "requirements" : "At least a level of NREMT certification.",
+        "company": "Enugu State Fire Service"
     },
     {
-        "title": "",
+        "title": "Chief Fire and Rescue Officer",
         "category": "Fire",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "Looking for someone with the ability to rescue people from burning houses.",
+        "requirements" : "Paramedic certification and both levels of NREMT certification.",
+        "company": "Enugu State Fire Service"
     },
     {
-        "title": "",
+        "title": "Fire Lieutenant",
         "category": "Fire",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "Looking for somone with the abilities of a lieutenant.",
+        "requirements" : ["Courage", "Compassion", "Physical Stamina", "Physical Strength"],
+        "company": "Enugu State Fire Service"
     },
     {
-        "title": "",
+        "title": "Real Estate Agent",
         "category": "Housing",
-        "description": "",
+        "description": "Assisting buyers and sellers to buy or sell a property.",
         "requirements" : "",
         "company": ""
     },
@@ -246,39 +246,39 @@ const avaialable_jobs = [
         "company": ""
     },
     {
-        "title": "",
+        "title": "Cloud Computing Engineer",
         "category": "IT",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "Someone with the ability to define, design, build and maintain systems and infrasctructure managed by cloud providers such as Amazon Web Services (AWS) and Microsoft Azure.",
+        "requirements" : "2 years experience in cloud computing",
+        "company": "SkyTech"
     },
     {
-        "title": "",
+        "title": "Computer Network Specialist",
         "category": "IT",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "Be able to define, design, build and maintain a variety of data communication networks and systems.",
+        "requirements" : ["Bachelors Degree in Computer Science", "At least 4 years experience as a Computer Network Specialist."],
+        "company": "TechLooop"
     },
     {
-        "title": "",
+        "title": "Database Adminisrator",
         "category": "IT",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "Management of Database records and updates.",
+        "requirements" : "1 year minimum experience as a Database Administrator.",
+        "company": "Tech Port"
     },
     {
-        "title": "",
+        "title": "System Analyst",
         "category": "IT",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "Analysing different systems and giving reports on a monthly basis.",
+        "requirements" : "3 years experience as a System Analyst.",
+        "company": "Buuzzz"
     },
     {
-        "title": "",
+        "title": "IT Coordinator",
         "category": "IT",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "Coordination of different Information Tecchnology data and processing of data.",
+        "requirements" : "Ability to coordinate.",
+        "company": "Decagon"
     },
     {
         "title": "",

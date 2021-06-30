@@ -61,7 +61,7 @@ mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 50) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -79,32 +79,3 @@ mybutton.addEventListener('click', () => {
 //       {pageLanguage: 'en'}, 
 //       'google_translate'
 //   )}
-
-// $(document).ready(function() {
-
-//   var delay = 300; // milliseconds
-//   var cookie_expire = 0; // days
-
-//   var cookie = localStorage.getItem("list-builder");
-//   if(cookie == undefined || cookie == null) {
-//       cookie = 0;
-//   }
-
-//   if(((new Date()).getTime() - cookie) / (1000 * 60 * 60 * 24) > cookie_expire) {
-//       $("#list-builder").delay(delay).fadeIn("fast", () => {
-//           $("#popup-box").fadeIn("fast", () => {});
-//       });
-
-//       $("button[name=subscribe]").click(() => {
-//         $.post($("#popup-form").attr("action"), { name: $("input[name=name]").val(), email: $("input[name=email]").val(), list: $("input[name=list]").val() }, (result) => {
-//           $("#popup-box-content").html("<p style='text-align: center'>Thank you for subscribing to The Polyglot Developer newsletter!</p>");
-//         });
-//       });
-
-//       $("#popup-close").click(() => {
-//           $("#list-builder, #popup-box").hide();
-//           localStorage.setItem("list-builder", (new Date()).getTime());
-//       });
-//   }
-
-// });
