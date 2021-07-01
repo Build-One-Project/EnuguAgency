@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /* width: 100%; */
     font-family: 'Poppins', sans-serif;
     color: #465158;
 }
@@ -16,7 +17,7 @@ body{
     float: right;
 }
 .header{
-  border-bottom: none;
+  border-bottom: 1px solid #E2E8F0;
 }
 
 .navbar {
@@ -79,22 +80,22 @@ form{
     background: #fff transparent;
     padding: 20px;
 }
-input{
+input{ 
     width: 50%;
     padding: 20px;
     border: none;
     font-family: 'Poppins', sans-serif;
 }
 button{
-    padding: 15px;
-    width: 400px;
-    margin-top: 50px;
-    cursor: pointer;
-    margin-bottom: 100px;
-    background: #6EC1E4;
-    border: none;
+  padding: 15px;
+  width: 400px;
+  margin-top: 50px;
+  cursor: pointer;
+  margin-bottom: 100px;
+  background: #6EC1E4;
+  border: none;
 }
-button{
+button a{
     text-decoration: none;
     color: #fff;
     font-size: 18px;
@@ -246,23 +247,30 @@ cite a {
 .powered h2{
   float: right;
 }
-.sec_2{
+/* .sec_2{
   display: block;
-}
+} */
 .sec_2 h2{
   margin-top: -400px;
   font-size: 30px;
 }
-.sec_2 p{
-  margin-top: -320px;
+.sec_2 .detail{
   width: 50%;
   font-weight: 600;
-  font-size: 25px;
   float: right;
+  margin-top: -320px;
+}
+.sec_2 .hashtag{
+  width: 50%;
+  font-weight: 600;
+  float: right;
+  margin-top: -220px;
 }
 footer{
+  margin-top: 50px;
   box-sizing: border-box;
   background: #465158;
+  margin-bottom: -22px;
 }
 footer img{
   width: 15%;
@@ -331,6 +339,19 @@ footer .icons{
   cite{
     margin-right: 50px;
     margin-top: 20px;
+  }
+  .sec_2 .hashtag{
+    width: 100%;
+    font-weight: 600;
+    margin-top: 0;
+    float: none;
+  }
+  .sec_2 .detail{
+    width: 100%;
+    font-weight: 600;
+    float: none;
+    text-align: center;
+    margin-top: 0;
   }
   .logo img{
     width: 7%;

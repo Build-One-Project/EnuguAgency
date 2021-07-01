@@ -1,4 +1,4 @@
-const avaialable_jobs = [
+const jobs = [
     {
         "title": "Medical Assistant",
         "category": "Health",
@@ -181,7 +181,7 @@ const avaialable_jobs = [
         "description": "Assisting buyers and sellers to buy or sell a property.",
         "requirements" : "",
         "company": ""
-    },
+    },     
     {
         "title": "",
         "category": "Housing",
@@ -419,27 +419,31 @@ const avaialable_jobs = [
         "description": "",
         "requirements" : "",
         "company": ""
-    },
+    }
 ]
 
-const search_result = document.getElementById("search")
 
-search_result.addEventListener("keyup", (e) => {
-  const searchString = e.target.value;
-  function Search_input(props){
-      const allJobsByCategory = avaialable_jobs.filter( (item) => 
-        item.category.toLowerCase().split(" ").includes(props.category.toLowerCase()) 
-    )
+
+
+
+// const search_result = document.getElementById("search")
+
+// search_result.addEventListener("keyup", (e) => {
+//   const searchString = e.target.value;
+//   function Search_input(props){
+//       const allJobsByCategory = avaialable_jobs.filter( (item) => 
+//         item.category.toLowerCase().split(" ").includes(props.category.toLowerCase()) 
+//     )
 //   const filteredCharacters = avaialable_jobs.filter((item) => {
 //     return (
 //       item.category.includes(searchString)
 //     );
 //   });
-  console.log(`Category: ${item.category} ---- Job Title: ${item.title}`)
-  console.log(allJobsByCategory);
-  }
+//   console.log(`Category: ${item.category} ---- Job Title: ${item.title}`)
+//   console.log(allJobsByCategory);
+//   }
   
-});
+// });
 
 // function Search_input(props){
 

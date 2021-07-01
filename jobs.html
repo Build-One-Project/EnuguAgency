@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs</title>
+    <link rel="stylesheet" href="jobs.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div id="google_translate"></div>
+            <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
+            <div class="logo">
+              <img src="./images/logo2.png" alt="">
+            </div>
+            <nav class="navbar">
+                <ul class="nav-menu"> 
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="about.html" class="nav-link">About</a>
+                  </li>
+                    <li class="nav-item">
+                        <a href="faq.html" class="nav-link">FAQ</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a href="jobs.html" class="nav-link">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+         </header>
+        <div class="top1">
+            <div class="span">
+                <h2>JOBS</h2>
+                <span><a href="index.html">Home</a></span>
+                <span> | </span>
+                <span>Listed Jobs</span>
+            </div>
+        </div>
+        <div class="job">
+            <h3 class="page_header">JOBS</h3>
+            <h2 class="page">Current Job Opportunities in Enugu</h2>
+            <div id="job-search">
+                <div class="left">
+                    <form method="GET" action="search">
+                        <div class="group-fields">
+                            <div class="form-input">                        
+                                <input required="" type="text" name="term" id="first_name" placeholder="Enter keyword to find jobs" value="">
+                            </div>
+                            <select name="category" id="category" class="form-category">
+                                <option value disabled selected>Select category</option>
+                                <option value="Administration">Administration</option>
+                                <option value="Finance">Finance</option>
+                                <option value="Fire">Fire</option>
+                                <option value="Health">Health</option>
+                                <option value="Housing Services">Housing Services</option>
+                                <option value="Human Resources">Human Resources</option>
+                                <option value="Information Technology (IT)">Information Technology (IT)</option>
+                                <option value="Legal Affairs">Legal Affairs</option>
+                                <option value="Parks and Recreation">Parks and Recreation</option>
+                                <option value="Planning and Development">Planning and Development</option>
+                                <option value="Police">Police</option>
+                                <option value="Public Works">Public Works</option>
+                            </select>
+                            <button type="submit" id="profileBtn" class="form-button" style="position: relative;">SEARCH</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- <p class="page-info">Click any of the jobs that interest you below to see more details and apply</p> -->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img src="./images/logo3.png" alt="">
+        <h2>REMITA</h2>
+        <h4>Terms And Conditions</h4>
+        <h5>Privacy policy</h5>
+        <div class="icons">
+          <img src="./images/github.png" alt="">
+          <img src="./images/facebook.png" alt="">
+          <img src="./images/twitter.png" alt="">
+        </div>
+        <h4 class="text">Group Nine Enugu Tech Project, &copy; 2021</h4>
+      </footer>
+      <button class="top" onclick="topFunction()" id="myBtn" title="Go to top"><img src="./images/icons/up-arrow.png" alt=""></button> 
+</body>
+<script src="index.js"></script>
+<script src="job.js"></script>
+</html>

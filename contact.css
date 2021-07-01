@@ -96,6 +96,7 @@ input[type=submit] {
 footer{
     box-sizing: border-box;
     background: #465158;
+    margin-bottom: -22px;
 }
 footer img{
     width: 15%;

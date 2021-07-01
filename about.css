@@ -15,7 +15,7 @@ body{
     float: right;
 }
 .header{
-  border-bottom: none;
+  border-bottom: 1px solid #E2E8F0;
 }
 .navbar {
   display: flex;
@@ -56,6 +56,9 @@ nav ul li a{
 }
 
 /* Global styles */
+#main-col{
+  margin-top: -30px;
+}
 #main-col h1{
     background: url(./images/program.jpg);
     background-size: cover;
@@ -84,51 +87,62 @@ nav ul li a{
     font-size: 20px;
 } 
 footer{
-    box-sizing: border-box;
-    background: #465158;
-    margin-bottom: -20px;
-  }
-  footer img{
-    width: 15%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  footer h2{
-    text-align: center;
-    font-weight: 500;
-    color: #fff;
-  }
-  footer h4{
-    text-align: center;
-    font-weight: 500;
-    color: #fff;
-  }
-  footer h5{
-    text-align: center;
-    font-weight: 500;
-    color: #fff;
-  }
-  footer .icons{
-    width: 30%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #6EC1E4; /* Set a background color */
-    color: white; /* Text color */
-    padding: 10px;
-    cursor: pointer; /* Add a mouse pointer on hover */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+  margin-top: 10px;
+  box-sizing: border-box;
+  background: #465158;
+  margin-bottom: -22px;
+}
+footer img{
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer h2{
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+footer h4{
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+footer h5{
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+footer .icons{
+  width: 30%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text{
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #bbb;
+  color: #fff;
+}
+.top{
+  width: 50px;
+  height: 50px;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #6EC1E4; /* Set a background color */
+  color: white; /* Text color */
+  padding: 10px;
+  cursor: pointer; /* Add a mouse pointer on hover */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
   }
 
 
