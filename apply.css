@@ -64,8 +64,8 @@ nav ul li a{
     background-size: cover;
     background-position-y: -50px;
 }
-h3{
-    text-align: center;
+p{
+    text-align: left;
     font-size: 25px;
 }
 form{
@@ -174,7 +174,11 @@ footer{
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     }
     .apply{
-        background-position-y: 0;
+      background-position-y: 0;
+    }
+    p{
+      float: right;
+      font-size: 25px;
     }
     form{
         width: 90%;

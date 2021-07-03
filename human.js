@@ -422,7 +422,7 @@ const jobs = [
     }
 ]
 
-var output = jobs.filter(jobs => jobs.category === "Finance");
+var output = jobs.filter(jobs => jobs.category === "Human Resources");
 for(var i = 0; i < output.length; i++){
     document.write("<h3> Job Title:  ", output[i].title, "<h3> ")
     document.write("<h4> Category: ", output[i].category, "<h4>")

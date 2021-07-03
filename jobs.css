@@ -13,7 +13,7 @@ body{
     margin-top: 10px;
     width: 5%;
     margin-right: 40px;
-    margin-bottom: -40px;
+    margin-bottom: -40px; 
     float: right;
 }
 .header{
@@ -123,14 +123,9 @@ nav ul li a{
 .column{
   margin-right: 10%;
   float: left;
-  display: flex;
-  width: 80%;
+  /* display: flex; */
+  width: 100%;
   max-height: 50%;
-  min-height: 1px;
-}
-.column h3{
-  font-size: 1.25rem;
-  line-height: 1.2;
 }
 .column ul{
   list-style: none;
@@ -143,33 +138,8 @@ nav ul li a{
 .column ul a:hover{
   color: #333;
 }
-.column1{
-  margin-right: 10%;
-  float: left;
-  display: flex;
-  width: 80%;
-  max-height: 50%;
-  min-height: 1px;
-}
-.column1 h3{
-  font-size: 1.25rem;
-  line-height: 1.2;
-}
-.column1 ul{
-  list-style: none;
-}
-.column1 ul a{
-  text-decoration: none;
-  color: #6EC1E4;
-  display: inline-block;
-  margin-top: 10px;
-}
-.column1 ul a:hover{
-  color: #333;
-}
 #job-search{
-    display: grid;
-    
+  display: grid; 
 }
 .page_header{
     font-weight: 700;
@@ -179,9 +149,8 @@ nav ul li a{
     margin-bottom: 0.75rem;
 }
 .top1{
-    background: linear-gradient(to right,#0a090cc5, #0a090cc5), url(./images/015.jpg);
-    background-size: cover;
-
+  background: linear-gradient(to right,#0a090cc5, #0a090cc5), url(./images/015.jpg);
+  background-size: cover;
 }
 .top1 .span{
     margin-left: 90px;
@@ -290,6 +259,21 @@ footer{
 
 
 
+
+@media screen and (max-width: 600px) {
+  form{
+    width: 100%;
+  }
+  .page-info{
+    width: 100%;
+  }
+  .top1{
+    width: 100%;
+  }
+  .column{
+    float: none;
+  }
+}
 
 
 @media screen and (max-width: 768px) {

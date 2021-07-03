@@ -260,12 +260,6 @@ cite a {
   float: right;
   margin-top: -320px;
 }
-.sec_2 .hashtag{
-  width: 30%;
-  font-weight: 600;
-  float: right;
-  margin-top: -220px;
-}
 footer{
   margin-top: 50px;
   box-sizing: border-box;
@@ -339,12 +333,6 @@ footer .icons{
   cite{
     margin-right: 50px;
     margin-top: 20px;
-  }
-  .sec_2 .hashtag{
-    width: 100%;
-    font-weight: 600;
-    margin-top: 0;
-    float: none;
   }
   .sec_2 .detail{
     width: 100%;
