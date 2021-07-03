@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jobs</title>
     <link rel="stylesheet" href="jobs.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 </head>
 <body>
     <div class="container">
         <header class="header">
-            <div id="google_translate"></div>
-            <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
             <div class="logo">
               <img src="./images/logo2.png" alt="">
             </div>
@@ -53,31 +52,72 @@
             <h2 class="page">Current Job Opportunities in Enugu</h2>
             <div id="job-search">
                 <div class="left">
-                    <form method="GET" action="search">
+                    <form>
                         <div class="group-fields">
-                            <div class="form-input">                        
-                                <input required="" type="text" name="term" id="first_name" placeholder="Enter keyword to find jobs" value="">
+                            <div class="dropdown">
+                                <a onclick="myFunction()" type="dropdown" class="dropbtn">Select category</a>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <input type="text" placeholder="Search..." id="myInput" onkeyup="filterFunction()">
+                                    <a href="">Administration</a>
+                                    <a href="">Finance</a>
+                                    <a href="">Fire</a>
+                                    <a href="">Health</a>
+                                    <a href="">Housing Services</a>
+                                    <a href="">Human Resources</a>
+                                    <a href="">Information Technology (IT)</a>
+                                    <a href="">Legal Affairs</a>
+                                    <a href="">Parks and Recreation</a>
+                                    <a href="">Planning and Development</a>
+                                    <a href="">Police</a>
+                                    <a href="">Public Works</a>
+                                </div>
                             </div>
-                            <select name="category" id="category" class="form-category">
-                                <option value disabled selected>Select category</option>
-                                <option value="Administration">Administration</option>
-                                <option value="Finance">Finance</option>
-                                <option value="Fire">Fire</option>
-                                <option value="Health">Health</option>
-                                <option value="Housing Services">Housing Services</option>
-                                <option value="Human Resources">Human Resources</option>
-                                <option value="Information Technology (IT)">Information Technology (IT)</option>
-                                <option value="Legal Affairs">Legal Affairs</option>
-                                <option value="Parks and Recreation">Parks and Recreation</option>
-                                <option value="Planning and Development">Planning and Development</option>
-                                <option value="Police">Police</option>
-                                <option value="Public Works">Public Works</option>
-                            </select>
-                            <button type="submit" id="profileBtn" class="form-button" style="position: relative;">SEARCH</button>
                         </div>
                     </form>
                 </div>
-                <!-- <p class="page-info">Click any of the jobs that interest you below to see more details and apply</p> -->
+                <p class="page-info">Click any of the jobs that interest you to see more details and apply</p>
+                <!-- <div class="boxes">
+                    <table id='table'>
+                        <tr>
+                            <th>Job Title</th>
+                            <th>Job Category</th>
+                            <th>Job Description</th>
+                            <th>Company</th>
+                        </tr>
+          
+                    <script>
+                        $(document).ready(function () {
+          
+                            // FETCHING DATA FROM JSON FILE
+                            $.getJSON("job.json", 
+                                    function (data) {
+                                var student = '';
+          
+                                // ITERATING THROUGH OBJECTS
+                                $.each(data, function (key, value) {
+          
+                                    //CONSTRUCTION OF ROWS HAVING
+                                    // DATA FROM JSON OBJECT
+                                    student += '<tr>';
+                                    student += '<td>' + 
+                                        value.title + '</td>';
+          
+                                    student += '<td>' + 
+                                        value.category + '</td>';
+          
+                                    student += '<td>' + 
+                                        value.description + '</td>';
+          
+                                    student += '<td>' + 
+                                        value.company + '</td>';
+                                });
+                                  
+                                //INSERTING ROWS INTO TABLE 
+                                $('#table').append(student);
+                            });
+                        });
+                    </script>
+                </div> -->
             </div>
         </div>
     </div>
@@ -96,5 +136,5 @@
       <button class="top" onclick="topFunction()" id="myBtn" title="Go to top"><img src="./images/icons/up-arrow.png" alt=""></button> 
 </body>
 <script src="index.js"></script>
-<script src="job.js"></script>
+<script src="jobs.js"></script>
 </html>

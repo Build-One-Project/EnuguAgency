@@ -1,4 +1,4 @@
-const jobs = [
+[
     {
         "title": "Medical Assistant",
         "category": "Health",
@@ -423,48 +423,3 @@ const jobs = [
 ]
 
 
-
-
-
-// const search_result = document.getElementById("search")
-
-// search_result.addEventListener("keyup", (e) => {
-//   const searchString = e.target.value;
-//   function Search_input(props){
-//       const allJobsByCategory = avaialable_jobs.filter( (item) => 
-//         item.category.toLowerCase().split(" ").includes(props.category.toLowerCase()) 
-//     )
-//   const filteredCharacters = avaialable_jobs.filter((item) => {
-//     return (
-//       item.category.includes(searchString)
-//     );
-//   });
-//   console.log(`Category: ${item.category} ---- Job Title: ${item.title}`)
-//   console.log(allJobsByCategory);
-//   }
-  
-// });
-
-// function Search_input(props){
-
-    
-//     const allJobsByCategory = avaialable_jobs.filter( (item) => 
-//         item.category.toLowerCase().split(" ").includes(props.category.toLowerCase()) 
-//     )
-//     const allJobsByTitleComponent = allJobsByCategory.map( (item) =>
-//         console.log("Category: {item.category} ---- Job Title: {item.title}")
-//     )
-//     console.log(allJobsByTitleComponent)
-
-
-
-    // return(
-    //     <div id="search_result">
-    //         <h3>The are {title.length} Jobs in total</h3>
-    //         <h3>We found <span id="search_result_number">{allJobsByCategory.length}</span> jobs that have <span id="search_keyword"> {props.category}</span> in their category</h3>
-    //         {/* { allTitles } */}
-    //         {props.title === "" ? title : allJobsByTitleComponent}
-    //     </div>
-    // )
-// }
-// console.log(Search_input(props))
