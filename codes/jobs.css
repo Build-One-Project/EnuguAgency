@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* width: 100%; */
+    font-family: 'Poppins', sans-serif;
+    color: #465158;
+}
+
+.logo img{
+    margin-top: 10px;
+    width: 5%;
+    margin-right: 40px;
+    margin-bottom: -40px;
+    float: right;
+}
+.header{
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+}
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;;
+  list-style: none;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #475569;
+}
+
+.nav-link:hover{
+  color: #6EC1E4;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.dropbtn{
+  background-color: #6EC1E4;
+  color: #fff;
+  padding: 16px;
+  font-size: 20px;
+  width: 70%; 
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.dropbtn:hover, .dropbtn:focus{
+  background-color: rgb(29, 165, 219);
+}
+#myInput{
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+#myInput:focus{
+  outline: 3px solid #ddd;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  /* min-width: 320px; */
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+.dropdown-content a{
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  /* border-bottom: 1px solid #bbb; */
+  display: block;
+}
+.dropdown-content a:hover{
+  background-color: #f1f1f1;
+}
+.show{
+  display: block;
+}
+.cards h3{
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
+.column{
+  margin-right: 10%;
+  float: left;
+  display: flex;
+  width: 80%;
+  max-height: 50%;
+  min-height: 1px;
+}
+.column h3{
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+.column ul{
+  list-style: none;
+}
+.column ul a{
+  text-decoration: none;
+  color: #6EC1E4;
+  display: inline-block;
+}
+.column ul a:hover{
+  color: #333;
+}
+.column1{
+  margin-right: 10%;
+  float: left;
+  display: flex;
+  width: 80%;
+  max-height: 50%;
+  min-height: 1px;
+}
+.column1 h3{
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+.column1 ul{
+  list-style: none;
+}
+.column1 ul a{
+  text-decoration: none;
+  color: #6EC1E4;
+  display: inline-block;
+  margin-top: 10px;
+}
+.column1 ul a:hover{
+  color: #333;
+}
+#job-search{
+    display: grid;
+    
+}
+.page_header{
+    font-weight: 700;
+}
+.page{
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+.top1{
+    background: linear-gradient(to right,#0a090cc5, #0a090cc5), url(./images/015.jpg);
+    background-size: cover;
+
+}
+.top1 .span{
+    margin-left: 90px;
+    padding-bottom: 100px;
+    margin-top: -25px;
+}
+.job{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.job h3,
+.job h2{
+    margin-left: 45px;
+    color: #465158;
+}
+.top1 h2{
+    font-size: 30px;
+    color: #fff;
+    padding-top: 120px;
+}
+.top1 span{
+    font-size: 17px;
+    color: #fff;
+    padding: 6px;
+}
+.top1 span a{
+    color: #fff;
+    text-decoration: none;
+}
+.group-fields {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    margin-bottom: 1.25rem;
+    padding: 2rem;
+    --bg-opacity: 1;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, var(--bg-opacity));
+    display: grid;
+    grid-gap: 2rem;
+    gap: 2rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+form{
+  width: 100%;
+}
+
+footer{
+    margin-top: 50px;
+    box-sizing: border-box;
+    background: #465158;
+    margin-bottom: -22px;
+  }
+  footer img{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer h2{
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+  }
+  footer h4{
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+  }
+  footer h5{
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+  }
+  footer .icons{
+    width: 30%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text{
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #bbb;
+    color: #fff;
+  }
+  .top{
+    width: 50px;
+    height: 50px;
+  }
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #6EC1E4; /* Set a background color */
+    color: white; /* Text color */
+    padding: 10px;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .logo img{
+        width: 7%;
+      }
+      
+      .dropbtn{
+        width: 150px;
+        font-size: 15px;
+      }
+      .dropdown-content{
+        width: 500%;
+      }
+      .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 90%;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    
+    .nav-menu.active {
+        left: 0;
+    }
+    
+    .nav-item {
+        margin: 1.5rem 0;
+    }
+    
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  }
+
+

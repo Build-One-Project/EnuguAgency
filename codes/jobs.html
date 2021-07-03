@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jobs</title>
+    <link rel="shortcut icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="jobs.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 </head>
@@ -75,49 +76,91 @@
                         </div>
                     </form>
                 </div>
-                <p class="page-info">Click any of the jobs that interest you to see more details and apply</p>
-                <!-- <div class="boxes">
-                    <table id='table'>
-                        <tr>
-                            <th>Job Title</th>
-                            <th>Job Category</th>
-                            <th>Job Description</th>
-                            <th>Company</th>
-                        </tr>
-          
-                    <script>
-                        $(document).ready(function () {
-          
-                            // FETCHING DATA FROM JSON FILE
-                            $.getJSON("job.json", 
-                                    function (data) {
-                                var student = '';
-          
-                                // ITERATING THROUGH OBJECTS
-                                $.each(data, function (key, value) {
-          
-                                    //CONSTRUCTION OF ROWS HAVING
-                                    // DATA FROM JSON OBJECT
-                                    student += '<tr>';
-                                    student += '<td>' + 
-                                        value.title + '</td>';
-          
-                                    student += '<td>' + 
-                                        value.category + '</td>';
-          
-                                    student += '<td>' + 
-                                        value.description + '</td>';
-          
-                                    student += '<td>' + 
-                                        value.company + '</td>';
-                                });
-                                  
-                                //INSERTING ROWS INTO TABLE 
-                                $('#table').append(student);
-                            });
-                        });
-                    </script>
-                </div> -->
+                <p class="page-info">Click any of the job categories that interest you to see more details and apply</p>
+                <div class="cards">
+                    <h3>Categories</h3>
+                    <div class="column">
+                        <h4>Financial Jobs</h4> 
+                        <ul>
+                            <li>
+                                <a href="finance.html">Finance</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h4>Health and Safety Jobs</h4> 
+                        <ul>
+                            <li>
+                                <a href="">Fire</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">Health</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="column">
+                        <h4>Business Jobs</h4> 
+                        <ul>
+                            <li>
+                                <a href="">Housing Services</a>
+                            </li>
+                        </ul>
+                       <ul>
+                           <li>
+                               <a href="">Administration</a>
+                           </li>
+                       </ul>
+                        <ul>
+                            <li>
+                                <a href="">Legal Affairs</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">Human Resources</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column1">
+                        <h4>Information Technology Jobs</h4> 
+                        <ul>
+                            <li>
+                                <a href="">Information Technology (IT)</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column1">
+                        <h4>Community Jobs</h4> 
+                        <ul>
+                            <li>
+                                <a href="">Parks and Recreation</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">Planning and Development</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">Public Works</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="column1">
+                        <h4>Security Jobs</h4> 
+                        <ul>
+                            <li>
+                                <a href="">Police</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -136,5 +179,4 @@
       <button class="top" onclick="topFunction()" id="myBtn" title="Go to top"><img src="./images/icons/up-arrow.png" alt=""></button> 
 </body>
 <script src="index.js"></script>
-<script src="jobs.js"></script>
 </html>

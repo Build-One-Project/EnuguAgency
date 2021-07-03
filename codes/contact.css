@@ -11,7 +11,7 @@ body{
 .logo img{
     margin-top: 10px;
     width: 5%;
-    margin-right: 40px;
+    margin-right: 40px; 
     margin-bottom: -40px;
     float: right;
 }
@@ -53,19 +53,15 @@ body{
   font-weight: 400;
   color: #475569;
 } 
-
 .nav-link:hover{
   color: #6EC1E4;
 }
-
-
 nav ul li a{
-    text-decoration: none;
-    color: #333;
+  text-decoration: none;
+  color: #333;
 }
-
 input{
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 input[type=text], select, textarea {
   width: 50%;
@@ -78,7 +74,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 textarea{
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 input[type=submit] {
   background-color: #6EC1E4;
