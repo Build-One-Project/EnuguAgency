@@ -60,13 +60,13 @@ const jobs = [
         "category": "Legal",
         "description": "Looking for someone who can help a team to achieve their set goals.",
         "requirements": ["Ability To Lead", "Determination", "A minimum of 2 years experience" ],
-        "company": ""
+        "company": "Enugu Law Firm"
     },
     {
-        "title": "",
+        "title": "Barrister",
         "category": "Legal",
-        "description": "",
-        "requirements": "",
+        "description": "Able to give expert legal advice and represent clients in court. ",
+        "requirements": "House of Law III",
         "company": ""
     },
     {
@@ -106,39 +106,39 @@ const jobs = [
         "company": "ESUT Hospital Parklane Enugu."
     },
     {
-        "title": "",
+        "title": "Financial Clerk",
         "category": "Administration",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "Ability to produce and maintain financial records for companies, carrying out financial transactions and helping customers too.",
+        "requirements" : ["Bookkeeping", "Accounting", "Post-secondary Education"],
+        "company": "Bowaz Group of Companies"
     },
     {
-        "title": "",
+        "title": "General Office Clerk",
         "category": "Administration",
-        "description": "",
+        "description": "Controlling of general activities in the office. Maintain documents, answer telephone calls and assist clients.",
         "requirements" : "",
-        "company": ""
+        "company": "Maxwell Oil Group"
     },
     {
-        "title": "",
+        "title": "Information Clerk",
         "category": "Administration",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "Help gather information to help the company grow. Searching databases, digging through files and maintaining records.",
+        "requirements" : "Experience with spreadsheet and computer programs.",
+        "company": "National Television Authority (NTA)"
     },
     {
-        "title": "",
+        "title": "Receptionist",
         "category": "Administration",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "Give customers a warm welcome into the organization and help them with whatever they want to do.",
+        "requirements" : "Ability to interact with customers freely, Bookkeeping",
+        "company": "Nivea NG"
     },
     {
-        "title": "",
+        "title": "Office Administrator",
         "category": "Administration",
-        "description": "",
+        "description": "Providing structure to other employees throughout the organization. Being responsible for the management of human resources, budgets and records.",
         "requirements" : "",
-        "company": ""
+        "company": "Bozwarth Group of Companies"
     },
     {
         "title": "Fire Safety Consultant",
@@ -180,70 +180,56 @@ const jobs = [
         "category": "Housing",
         "description": "Assisting buyers and sellers to buy or sell a property.",
         "requirements" : "",
-        "company": ""
+        "company": "Omwheel Housing Management"
     },     
     {
-        "title": "",
+        "title": "Sales Executive",
         "category": "Housing",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "Meet Sales monthly targets, attract clients for land purchase and investments.",
+        "requirements" : "BS.c or HND",
+        "company": "Enugu State Housing Corporation"
     },
     {
-        "title": "",
+        "title": "Business Executive",
         "category": "Housing",
-        "description": "",
+        "description": "Ability to brainstorm ideas to help in moving forward.",
         "requirements" : "",
-        "company": ""
+        "company": "Adrom Homes"
     },
     {
-        "title": "",
+        "title": "Housing Consultant",
         "category": "Housing",
-        "description": "",
+        "description": "Provision of excellent customer service and execution of initiatives that support our goal to provide exceptional customer service",
         "requirements" : "",
-        "company": ""
+        "company": "Scion Group"
     },
     {
-        "title": "",
+        "title": "Supported Housing Officer",
         "category": "Housing",
-        "description": "",
+        "description": "looking for supported housing officer to successfully deliver the supported housing management service delivery. Management of referrals, offers, complete tenancy sign ups and new tenancy visits.",
         "requirements" : "",
-        "company": ""
+        "company": "Koko Impero Housing"
     },
     {
-        "title": "",
+        "title": "Human Resource Manager",
         "category": "Human Resources",
-        "description": "",
+        "description": "Planning, Directing and and coordination of activities in this organization. You will also be in charge of recruiting, interviewing and hiring of new staff.",
         "requirements" : "",
-        "company": ""
+        "company": "Archimedes Rock Koncept"
     },
     {
-        "title": "",
+        "title": "Human Resources Generalist",
         "category": "Human Resources",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "Carrying out day-to-day HR management duties including staff recruitment, payroll preparation, staff training and organization of team bonding activities.",
+        "requirements" : "Good writing skill, general knowledge of HR mannagement functions and a minimum of 3 years experience.",
+        "company": "Koso Digital Marketing Agency"
     },
     {
-        "title": "",
+        "title": "Assistant- Human Resources",
         "category": "Human Resources",
-        "description": "",
-        "requirements" : "",
-        "company": ""
-    },
-    {
-        "title": "",
-        "category": "Human Resources",
-        "description": "",
-        "requirements" : "",
-        "company": ""
-    },
-    {
-        "title": "",
-        "category": "Human Resources",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "Assist in Handling Human Resources and Administrative responsibilities including: recruitment, onboarding, employee relations, performance and talent management.",
+        "requirements" : "Bachelors Degree or HND in Social Sciences, Huamnities or any other related field, minimum of 4 years work experience, excellent communication skill.",
+        "company": "EOS Outsourcing Limited"
     },
     {
         "title": "Cloud Computing Engineer",
@@ -281,144 +267,123 @@ const jobs = [
         "company": "Decagon"
     },
     {
-        "title": "",
+        "title": "Pool/Fitness Attendant",
         "category": "Recreation",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "We at Mariott Hotels are looking for a pool/fitness attendant who can help visitors during their leisure time.",
+        "requirements" : "Ability to perform gymnastic activities very well.",
+        "company": "Mariott Hotels"
     },
     {
-        "title": "",
+        "title": "Recreation Supervisor",
         "category": "Recreation",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "Instructs youths with an evidence based recreation program, adapts instructional methods and materials to meet youth varying needs, abilities and interest.",
+        "requirements" : "Vocational/Technical Degree in an area of assignment from an accredited college.",
+        "company": "DJJ Group of Companies"
     },
     {
-        "title": "",
+        "title": "Sports Supervisor",
         "category": "Recreation",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "We are looking for a sports supervisor to oversee the general wellbeing and status of and athlethes during a game.",
+        "requirements" : "Good communication skill",
+        "company": "City of Kaspers Sports Group"
     },
     {
-        "title": "",
+        "title": "Recreation Facilities Attendant",
         "category": "Recreation",
-        "description": "",
+        "description": "Looking for someone with a high standard of facility manintenance and janitoral work.",
         "requirements" : "",
-        "company": ""
+        "company": "Kamloops Group of Companies"
     },
     {
-        "title": "",
+        "title": "Recreation Assistant",
         "category": "Recreation",
-        "description": "",
-        "requirements" : "",
+        "description": "Carrying out resident activity programs such as arts and craft, sports, music, game and cooking. Providing a safe environment and teaching methods of related activities to resident.",
+        "requirements" : "Completion of a recognized activity assistant program.",
         "company": ""
     },
     {
-        "title": "",
+        "title": "Physical Planning and Development Officer",
         "category": "Planning and Development",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "description": "The physical planning and development officer is responsible for assisting the day to day running and maintenance of university infrastructure including the buildings, roads and other properties.",
+        "requirements" : "A minimum of Bachelors Degree In Civil Enigineering, Building, and Architechture.",
+        "company": "Mudiame University"
     },
     {
-        "title": "",
+        "title": "Community Planning and Development Representative",
         "category": "Planning and Development",
-        "description": "",
+        "description": "Participation in the delivery, development and design of new/current training or workshop used in instructing grantees on program requirements.",
         "requirements" : "",
-        "company": ""
+        "company": "Awgu Local Government"
     },
     {
-        "title": "",
+        "title": "Production Supervisor",
         "category": "Planning and Development",
-        "description": "",
+        "description": "Supervising the construction of the new site at Anambra State.",
         "requirements" : "",
-        "company": ""
+        "company": "BlueTriton Brands"
     },
     {
-        "title": "",
+        "title": "Business Development Representative",
         "category": "Planning and Development",
-        "description": "",
+        "description": "Sourcing of quality leads for the Account Executives, acquiring and maintaining a working knowledge of Oracle Netsuite, Uncovering and qualifying prospective customer needs.",
         "requirements" : "",
-        "company": ""
+        "company": "Oracle"
     },
     {
-        "title": "",
+        "title": "Discharge Planning Assistant",
         "category": "Planning and Development",
-        "description": "",
+        "description": "This position supports the Case Managers, Medical Scoial Workers and Nursing Staff team in meeting discharge planning and continuity of care needs for patients.",
         "requirements" : "",
-        "company": ""
+        "company": "St Joseph's Hospital"
     },
     {
-        "title": "",
+        "title": "Police Officer- Recruit",
         "category": "Police",
-        "description": "",
+        "description": "Reviews personnel and department rules and regulations, exercises appropriate level of initiative and judgement to make decisions within the scope of assigned authority.",
         "requirements" : "",
-        "company": ""
+        "company": "Enugu East Police Division."
     },
     {
-        "title": "",
+        "title": "Police Officer",
         "category": "Police",
-        "description": "",
+        "description": "Enforcing the law, performing patrol duties, responds to call for service etc.",
         "requirements" : "",
-        "company": ""
+        "company": "Enugu South Police Division"
     },
     {
-        "title": "",
+        "title": "Secret Service Federal Police Officer",
         "category": "Police",
-        "description": "",
+        "description": "Providing protection for Aso Rock complex, The Vice President's residence, and foreign diplomatic missions.",
         "requirements" : "",
-        "company": ""
+        "company": "The Federal Government of Nigeria"
     },
     {
-        "title": "",
-        "category": "Police",
-        "description": "",
-        "requirements" : "",
-        "company": ""
-    },
-    {
-        "title": "",
-        "category": "Police",
-        "description": "",
-        "requirements" : "",
-        "company": ""
-    },
-    {
-        "title": "",
+        "title": "Senior Public Policy Manager",
         "category": "Public Works",
-        "description": "",
+        "description": "Management and mitigation of political, regulatory and legislative risk, message crafting and localization, representing bolt in relevant industry associations.",
         "requirements" : "",
-        "company": ""
+        "company": "Bolt"
     },
     {
-        "title": "",
+        "title": "Public Relations Associate",
         "category": "Public Works",
-        "description": "",
+        "description": "Media monitoring, writing pitches, journalist interaction and repoting.",
         "requirements" : "",
-        "company": ""
+        "company": "RemoteHub"
     },
     {
-        "title": "",
+        "title": "Public Accountant",
         "category": "Public Works",
-        "description": "",
+        "description": "Participate in budgeting processes, monitor bookkeeping activities regularly, oversee ledger reconciliation and manage accounts.",
         "requirements" : "",
-        "company": ""
+        "company": "Jozzby Global"
     },
     {
-        "title": "",
+        "title": "Public Health Officer",
         "category": "Public Works",
-        "description": "",
+        "description": "Capability of being a Health Consultant, Public Health Speaker, give Health Counselling etc.",
         "requirements" : "",
-        "company": ""
-    },
-    {
-        "title": "",
-        "category": "Public Works",
-        "description": "",
-        "requirements" : "",
-        "company": ""
+        "company": "Hemmels Global Resources"
     }
 ]
 
