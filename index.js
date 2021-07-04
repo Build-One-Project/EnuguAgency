@@ -1,3 +1,10 @@
+//Loader
+const loaderContainer = document.querySelector(".loader")
+
+window.addEventListener("load", () => {
+  loaderContainer.classList.add("hide")
+})
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
