@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Remita</title>
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <div class="loader">
+          <div class="sk-cube-grid">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div>
+            <div class="sk-cube sk-cube4"></div>
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+          </div>
+        </div> 
+          <div class="loader-content">
+            <!-- <img src="https://source.unsplash.com/random" alt="" width="200" height="200"> -->
+          </div>
+            <header class="header">
+              <!-- <div id="google_translate"></div>
+              <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>  -->
+              <div class="logo">
+                <img src="./images/logo2.png" alt="">
+              </div>
+              <nav class="navbar">
+                  <ul class="nav-menu"> 
+                      <li class="nav-item">
+                          <a href="index.html" class="nav-link">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                        </li>
+                      <li class="nav-item">
+                          <a href="faq.html" class="nav-link">FAQ</a>
+                      </li> 
+                      <li class="nav-item">
+                          <a href="jobs.html" class="nav-link">Jobs</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="contact.html" class="nav-link">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="login.html" class="nav-link">Login</a>
+                    </li>
+                  </ul>
+                  <div class="hamburger">
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                  </div>
+              </nav>
+           </header>
+           <div class="wrap">
+               <div class="container1">
+                <form class="form form--hidden" id="login">
+                    <h1 class="form__title">Login</h1>
+                    <div class="form__message form__message--error"></div>
+                    <div class="form__input-group">
+                        <input type="text" class="form__input" autofocus placeholder="Username or Email">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <div class="form__input-group">
+                        <input type="password" class="form__input" autofocus placeholder="Password">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <button class="form__button" type="submit">Continue</button>
+                    <!-- <p class="form__text">
+                        <a href="#" class="form__link">Forgot your password?</a>
+                    </p> -->
+                    <p class="form__text">
+                        <a class="form__link" href="./" id="linkCreateAccount">Don't have an account? SignUp</a>
+                    </p>
+                </form>
+                <form class="form" id="createAccount">
+                    <h1 class="form__title">Create Account</h1>
+                    <div class="form__message form__message--error"></div>
+                    <div class="form__input-group">
+                        <input type="text" class="form__input" autofocus placeholder="Username">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <div class="form__input-group">
+                        <input type="email" class="form__input" autofocus placeholder="Email Address">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <div class="form__input-group">
+                        <input type="password" class="form__input" autofocus placeholder="Password">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <div class="form__input-group">
+                        <input type="password" class="form__input" autofocus placeholder="Confirm Password">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <button class="form__button" type="submit">Continue</button>
+                    <!-- <p class="form__text">
+                        <a href="#" class="form__link">Forgot your password?</a>
+                    </p> -->
+                    <p class="form__text">
+                        <a class="form__link" href="./" id="linkLogin">Already have an account? SignIn</a>
+                    </p>
+                </form>
+            </div>
+           </div>
+           
+           <!-- <div class="wrapper">
+               <div class="box">
+                <img src="./images/icons/user.png">
+                <div class="page">
+                    <div class="header1">
+                        <a id="login" class="active" href="#login">login</a>
+                        <a id="signup" href="#signup">signup</a>
+                    </div>
+                    <div id="errorMsg"></div>
+                    <div class="content">
+                        <form class="login" name="loginForm" onsubmit="return validateLoginForm()" method="POST">
+                            <input type="text" name="name" id="logName" placeholder="Username">
+                            <input type="password" name="password" id="logPassword" placeholder="Password">
+                            <div id="check">
+                                <input type="checkbox" id="remember">
+                                <label for="remember">Remember me</label>
+                            </div>
+                            <br><br>
+                            <input type="submit" value="Login">
+                            <a href="#">Forgot Password?</a>
+                        </form>
+                        <form class="signup" name="signupForm" onsubmit="return validateSignupForm()" method="POST">
+                            <input type="email" name="email" id="signEmail" placeholder="Email">
+                            <input type="text" name="name" id="signName" placeholder="Username">
+                            <input type="password" name="password" id="signPassword" placeholder="Password"><br>
+                            <input type="submit" value="SignUp">
+                        </form>
+                    </div>
+                </div>
+            </div> -->
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+            <script src="index.js"></script>
+           </div>
+           
+           <footer>
+            <img src="./images/logo3.png" alt="">
+            <h2>REMITA</h2>
+            <h4>Terms And Conditions</h4>
+            <h5>Privacy policy</h5>
+            <div class="icons">
+              <img src="./images/github.png" alt="">
+              <img src="./images/facebook.png" alt="">
+              <img src="./images/twitter.png" alt="">
+            </div>
+            <h4 class="text">Group Nine Enugu Tech Project, &copy; 2021</h4>
+        </footer>
+</body>
+<script src="login.js"></script>
+</html>
