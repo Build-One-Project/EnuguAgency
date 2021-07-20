@@ -5,112 +5,114 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    --color-error: #cc3333;
-    --color-success: #4bb544;
-    --border-radius: 4px;
-}
-.wrap{
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
     background: url(./images/mac.jpg);
     background-size: cover;
 }
-.form__input, 
-.form__button{
-    font-family: 'Poppins', sans-serif;
-}
-.form--hidden{
-    display: none;
-}
-.form > *:first-child{
-    margin-top: 0;
-}
-.form > *:last-child{
-    margin-bottom: 0;
-}
-.form__title{
-    margin-bottom: 2rem;
-    text-align: center;
-    color: #fff;
-}
-.form__message{
-    text-align: center;
-    margin-bottom: 1rem;
-}
-.form__message--success{
-    color: var(--color-success);
-}
-.form__message--error{
-    color: var(--color-error);
-}
-.form__input-group{
-    margin-bottom: 1rem;
-}
-.form__input{
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-    box-sizing: border-box;
-    border-radius: var(--border-radius);
-    border: 1px solid #ddd;
-    outline: none;
-    background: #eee;
-    transition: background 0.4s, border-color 0.4s;
-}
-.form__input:focus{
-    border-color: #6EC1E4;
-    background: #fff;
-}
-.form__input--error{
-    color: var(--color-error);
-    border-color: var(--color-error);
-}
-.form__input-error-message{
-    margin-top: 0.5rem;
-    font-size: 0.85rem;
-    color: var(--color-error);
-}
-.form__button{
-    width: 100%;
-    padding: 1rem 2rem;
-    font-weight: bold;
-    font-size: 1.1rem;
-    color: #fff;
-    border: none;
-    border-radius: var(--border-radius);
-    outline: none;
-    cursor: pointer;
-    background: #6EC1E4;
-}
-.form__button:hover{
-    background: #307b9b;
-}
-.form__button:active{
-    transform: scale(0.98);
-}
-.form__text{
-    text-align: center;
-}
-.form__link{
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
-}
-.form__link:hover{
-    text-decoration: underline;
-}
+
 .container1{
-    width: 400px;
-    max-width: 400px; 
-    margin: 1rem;
-    padding: 2rem;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
-    border-radius: var(--border-radius);
-    /* background: #fff; */
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+  width: 350px;
+  height: 500px;
+  box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+  perspective: 1000px;
+}
+.inner-box{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+.card-front, 
+.card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(#6ec1e4bb, rgba(0,0,100,0.8)), url(./images/mac.jpg);
+  padding: 55px;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+}
+.card-back{
+  transform: rotateY(180deg);
+}
+.card h2{
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.input-box{
+  width: 100%;
+  background: transparent;
+  border: 1px solid #fff;
+  margin: 6px 0;
+  height: 32px;
+  border-radius: 20px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+::placeholder{
+  color: #fff;
+  font-size: 12px;
+}
+button{
+  width: 100%;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  margin: 35px 0 10px;
+  height: 32px;
+  font-size: 12px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+.submit-btn{
+  position: relative;
+}
+.submit-btn::after{
+  content: "\27a4";
+  color: #333;
+  line-height: 32px;
+  font-size: 17px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  right: -1px;
+  top: -1px;
+}
+span{
+  font-size: 13px;
+  margin-left: 10px;
+}
+.card .btn{
+  margin-top: 70px;
+}
+.card a{
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 8px;
 }
 .sk-cube-grid {
   width: 40px;
@@ -237,7 +239,7 @@ body{
 .nav-link{
   font-size: 1.2rem;
   font-weight: 400;
-  color: #475569;
+  color: rgb(248, 248, 248);
 }
 
 .nav-link:hover{
@@ -245,146 +247,8 @@ body{
 }
 nav ul li a{
     text-decoration: none;
-    color: #333;
+    color: #fff;
 }
-/* .wrapper{
-    background-image: url(./images/mac.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.box{
-    width: 380px;
-    height: 500px;
-    background-color:rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    margin: 8% auto 0;
-    text-align: center;
-    position: relative;
-    box-sizing: border-box;
-    flex-direction: column;
-}
-
-.box img{
-	width:100px;
-    margin-top:-50px ;
-}
-
-.header1 {
-	width: 300px;
-    height: 50px;
-    text-transform: uppercase;
-	display: inline-flex;
-    padding-top: 20px;
-    padding-bottom: 0;
-	justify-content: space-between;
-}
-
-.header1 a {
-    font-size: 20px;
-    text-decoration: none;
-    color: #ffffff;
-	display: inline-flex;
-    padding-left: 25px;
-    padding-right: 25px;
-	justify-content: center;
-    cursor:pointer;
-}
-
-.header1 .active {
-    color: #6EC1E4;
-	font-weight: bold;
-	position: relative;
-}
-
-.header1 .active:after {
-	position: absolute;
-    border: none;
-	content: "";
-}
-
-#errorMsg{
-    color:red;
-    text-align: center;
-    font-size: 12px;
-    padding-bottom: 20px;
-
-}
-
-.content{
-    display: inline-flex;
-    overflow: hidden;
-}
-
-form {
-    position: relative;
-    display: inline-flex;
-    width: 100%;
-    height: 100%;
-	flex-shrink: 0;
-	flex-direction: column;
-	transition: right 0.5s;
-}
-
-.login a{
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 15px;
-    text-align: center;
-    cursor: pointer;
-
-}
-
-.extend form {
-	right: 100%;
-}
-
-input[type=text], input[type=password], input[type=email]{
-	display:block;
-    position: relative;
-	border: 4px solid #ffffff;
-	padding: 12px;
-    margin-bottom: 15px;
-    width: 100%;
- 	box-sizing: border-box;
-    font-size: 17px;
-    outline: none;
-}
-
-input[type=text]:hover,  input[type=password]:hover, input[type=email]:hover{
-    border: 4px solid #6EC1E4;
-
-}
-
-input[type=submit]{
-    display:block;
-    position: relative;
-    border: 3px solid #6EC1E4;
-    padding: 12px;
-    margin-bottom: 20px;
-    width: 100%;
-    border-radius: 25px;
-    background-color:#6EC1E4;
-    text-align:center;
-    font-size: 20px;
-    color: #ffffff;
-	cursor:pointer;
-    outline: none;
-}
-	
-input[type=submit]:hover{
-	 background-color:#ffffff;
-     color: #000000;
-     font-weight: bold;
-}
-input[type=checkbox]{
-    background-color:#6EC1E4;
-}
-#check{
-    margin-top: 10px;
-    text-align: left;
-    color: #ffffff;
-    font-size: 15px;
-} */
 
 footer{
     margin-top: 50px;
